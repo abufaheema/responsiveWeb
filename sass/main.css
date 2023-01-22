@@ -20,10 +20,52 @@ body {
   border: 1px solid white;
 }
 
-/*=============================NAVBA===============================*/
+.btn1 {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid white;
+  letter-spacing: 1px;
+  border-top-left-radius: 15px;
+  margin-right: -6px;
+}
+.btn1:hover {
+  background-color: deepskyblue;
+  color: white;
+  transition: all 0.5s ease-in;
+  border-color: deepskyblue;
+}
+
+.btn2 {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid white;
+  letter-spacing: 1px;
+  border-top-right-radius: 15px;
+}
+.btn2:hover {
+  background-color: orangered;
+  color: white;
+  transition: all 0.5s ease-in;
+  border-color: orangered;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*=============================NAVBAR===============================*/
 .navbar {
   padding: 22px 0;
-  background-color: #34495e;
+  background-color: grey;
 }
 .navbar .navbar-brand {
   color: white !important;
@@ -46,4 +88,42 @@ body {
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: deepskyblue;
+}
+
+/*=============================SLIDER SECTION=========================================================*/
+.slider {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.493)), url(../image/profile-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slider .slider-overlay {
+  position: relative !important;
+  width: 100%;
+  height: 100%;
+}
+.slider .slider-overlay .slider-content {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.slider .slider-overlay .slider-content .icons .fa {
+  font-size: 35px;
+  color: white;
+  margin-left: 7px;
+}
+.slider .slider-overlay .slider-content .social-icons a i {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in;
+  text-align: center !important;
+}
+.slider .slider-overlay .slider-content .social-icons a i:hover {
+  background-color: deepskyblue;
 }/*# sourceMappingURL=main.css.map */
