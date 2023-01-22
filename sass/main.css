@@ -1,1 +1,49 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+.btn:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+/*=============================NAVBA===============================*/
+.navbar {
+  padding: 22px 0;
+  background-color: #34495e;
+}
+.navbar .navbar-brand {
+  color: white !important;
+  font-weight: 900;
+}
+.navbar .navbar-toggler {
+  border: 2px solid black;
+  border-color: red;
+  transition: all 0.5s ease-in;
+}
+.navbar .navbar-toggler:hover {
+  background-color: deepskyblue;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.5s ease-in;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: deepskyblue;
+}/*# sourceMappingURL=main.css.map */
