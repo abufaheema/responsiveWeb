@@ -7,6 +7,12 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: auto;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .btn {
@@ -94,15 +100,17 @@ a:hover {
 .slider {
   width: 100%;
   height: 700px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.623)), url(../image/profile-img.jpg);
+  background: url(../image/profile-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  filter: brightness(0.9);
 }
 .slider .slider-overlay {
   position: relative !important;
   width: 100%;
   height: 100%;
+  z-index: 888;
 }
 .slider .slider-overlay .slider-content {
   position: absolute;
@@ -111,7 +119,7 @@ a:hover {
 }
 .slider .slider-overlay .slider-content .icons .fa {
   font-size: 35px;
-  color: white;
+  color: black;
   margin-left: 7px;
 }
 .slider .slider-overlay .slider-content .social-icons a i {
@@ -126,4 +134,12 @@ a:hover {
 }
 .slider .slider-overlay .slider-content .social-icons a i:hover {
   background-color: deepskyblue;
+}
+.slider .slider-overlay .slider-content h1 span {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.primary, .secondary {
+  color: orangered;
 }/*# sourceMappingURL=main.css.map */

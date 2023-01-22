@@ -5,16 +5,22 @@ $('document').ready(function () {
         perturbance: 0.01,
         
     });
-    
-    $('.text').typed({
-        strings: ['first sentence', 'second sentence'],
-        typespeed: 0,
-        loop: true
+
+
+
+    var typed = new Typed('.auto-text', {
+        strings: ['I Love <span class="primary">Coding.</span> ',
+        'And Love  <span class="secondary"> To Share!!.</span> '],
+        typeSpeed : 100,
+        backSpeed: 100,
+        loop :true
     });
 
 
 
 
 
-
 });
+
+
+

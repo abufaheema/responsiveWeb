@@ -8,6 +8,12 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: auto;
+}
+
+.section-padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .btn{
@@ -108,21 +114,25 @@ a{
 
 }
 
+
 /*=============================SLIDER SECTION=========================================================*/
 
 .slider{
     width: 100%;
     height: 700px;
-    background:linear-gradient(to right,rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.623)) ,url(../image/profile-img.jpg) ;
+    background: url(../image/profile-img.jpg);
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
     background-position: center ;
+    filter: brightness(0.9);
+
 
 
     .slider-overlay{
         position: relative !important;
         width: 100%;
         height: 100%;
+        z-index: 888;
 
 
         .slider-content{
@@ -133,7 +143,7 @@ a{
             .icons{
                 .fa{
                     font-size: 35px;
-                    color: white;
+                    color: black;
                     margin-left: 7px;
                 }
             }
@@ -159,12 +169,20 @@ a{
                 }
 
             }
+
+            h1{
+                span{
+                        font-size: 60px;
+                        text-transform: uppercase;
+                }
+            }
         }
     }
 
-    
+       
 
+}
 
-    
-
+.primary, .secondary{
+    color: orangered;
 }
